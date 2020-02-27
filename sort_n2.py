@@ -54,5 +54,5 @@ def test_sorts(sort_algo):
 
 if __name__ == '__main__':
     test_sorts(insert_sort)
-    test_sorts(choise_sort)
+    test_sorts(select_sort)
     test_sorts(bubble_sort)
