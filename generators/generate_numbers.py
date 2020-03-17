@@ -17,5 +17,5 @@ def generate_numbers(N: int, M: int, prefix=None):
         prefix.pop()
 
 
-#gen_bin(2)
+# gen_bin(3)
 generate_numbers(4, 4)
