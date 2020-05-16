@@ -3,11 +3,10 @@ def insert_sort(A):
     Сортировка вставкой, путём прохода по массиву поеском меньшего и вставкой в позиции по очереди
     """
     N = len(A)
-    for top in range(1, N):
-        k = top
+    for k in range(1, N):
         while k > 0 and A[k-1] > A[k]:
             A[k], A[k-1] = A[k-1], A[k]
-            k -= 1 
+            k -= 1
 
 
 def select_sort(A):
